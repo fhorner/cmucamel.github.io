@@ -1,4 +1,5 @@
-baseURL: /
+baseURL: /cmucamel.github.io/
+#publishDir: "../camel_public"
 theme: hugo-serif-theme
 languageCode: en-us
 title: Community for Advanced Methodological Learning
