@@ -1,0 +1,60 @@
+baseURL: /
+theme: hugo-serif-theme
+languageCode: en-us
+title: Community for Advanced Methodological Learning
+module:
+  hugoVersion:
+    extended: yes
+    min: 0.55.0
+params:
+  colors:
+    black: '#2f2f41'
+    grey: '#5C5A5A'
+    primary: '#C41230'
+    white: '#ffffff'
+    white_offset: '#f6f7ff'
+  favicon: favicon_c.png
+  fonts:
+    base: Source Sans Pro
+    google_fonts: https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Source+Sans+Pro:wght@400;700&display=swap
+    heading: Playfair Display
+  footer:
+    copyright_text: This site was built with <a href="https://github.com/rstudio/blogdown" target="_blank">Blogdown</a>. 
+                    Theme by <a class="zerostatic" href="https://www.zerostatic.io" target="_blank">www.zerostatic.io</a>
+  google_analytics_id: ''
+  google_tag_manager_id: ''
+  homepage:
+    show_contact_box: yes
+    show_services_button: no
+  logo:
+    alt: CAMeL - Community for Advanced Methodological Learning
+    desktop: images/logo/logo.png
+    desktop_height: 50px
+    mobile: images/logo/logo-mobile.png
+    mobile_height: 36px
+  seo:
+    meta_og_image: https://www.zerostatic.io/theme/hugo-serif/hugo-serif-screenshot.png
+    meta_twitter_creator: ''
+    meta_twitter_site: ''
+  services:
+    summary_truncate: 120
+  team:
+    summary_large_truncate: 120
+menu:
+  footer:
+    - name: Home
+      url: /
+      weight: 1
+    - name: Contact
+      url: /contact/
+      weight: 2
+  main:
+    - name: Calendar
+      url: /calendar/
+      weight: 1
+    - name: Quant Minor
+      url: /quantminor/
+      weight: 2
+    - name: Contact
+      url: /contact/
+      weight: 3
